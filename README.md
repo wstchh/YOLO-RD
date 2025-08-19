@@ -2,7 +2,7 @@
 
 
 
-## CSAF module
+## 1. CSAF module
 ```python
 class ESELayer(nn.Module):
     """ Effective Squeeze-Excitation
@@ -62,7 +62,7 @@ class CSAF(nn.Module):
 ```
 
 
-## LGECA mechanism
+## 2. LGECA mechanism
 ```python
 class LGECA(nn.Module):
     def __init__(self, c1, c2, local_size=5, global_k_size=7, local_k_size=3, local_weight=0.5):
@@ -97,4 +97,11 @@ class LGECA(nn.Module):
         att_all = F.adaptive_avg_pool2d((att_local*self.local_weight + att_global*(1-self.local_weight)), [h, w])
         x = x * att_all
         return x
+```
+
+## 3. SR-WBCE loss
+```python
+count_balance = [math.pow(it, 1/4) for it in counter_per_cls]
+cls_weights = [max(count_balance)/it if it != 0 else 1 for it in count_balance]
+class_loss = (self.BCEcls(pred_scores, target_scores.to(dtype))*torch.Tensor(cls_weights).cuda()).sum() / target_scores_sum  
 ```
