@@ -135,7 +135,7 @@ class_loss = (self.BCEcls(pred_scores, target_scores.to(dtype))*torch.Tensor(cls
 
 ## 4. Edge-device deployment
 <div align="center">
-    <img src="quatization.jpg" width="750">
+    <img src="quatization.jpg" width="500">
 </div>
 
 <div align="center">​ 
