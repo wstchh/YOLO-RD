@@ -4,8 +4,12 @@ This is the official code implementation of YOLO-RD for the Neurocomputing journ
 **"YOLO-RD: Road Defect Detection with Context-Aware Attention and Balanced Loss"**
 
 ## 1. CSAF module
+<div align="center">
+    <img src="Fig. 2-The structure of CSAF module.png " width="500">
+</div>
+
 <div align="center">​ 
-Fig. 2-The structure of CSAF module.png   
+The structure of CSAF module   
 </div>	  
 
 ```python
