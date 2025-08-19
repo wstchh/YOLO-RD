@@ -5,7 +5,7 @@ This is the official code implementation of YOLO-RD for the Neurocomputing journ
 
 ## 1. CSAF module
 <div align="center">
-    <img src="Fig. 2-The structure of CSAF module.png " width="500">
+    <img src="Fig. 2-The structure of CSAF module.png " width="1000">
 </div>
 
 <div align="center">​ 
@@ -73,7 +73,7 @@ class CSAF(nn.Module):
 
 ## 2. LGECA mechanism
 <div align="center">
-    <img src="Fig. 3-Illustration of LGECA module.png" width="500">
+    <img src="Fig. 3-Illustration of LGECA module.png" width="1000">
 </div>
 
 <div align="center">​ 
