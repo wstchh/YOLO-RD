@@ -134,6 +134,14 @@ class_loss = (self.BCEcls(pred_scores, target_scores.to(dtype))*torch.Tensor(cls
 ```
 
 ## 4. Edge-device deployment
+<div align="center">
+    <img src="quatization.jpg" width="750">
+</div>
+
+<div align="center">​ 
+ quantization operation   
+</div>	
+
 ```c++
 #include "yolord.h"
 #include <opencv2/opencv.hpp>
