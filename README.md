@@ -1,6 +1,7 @@
 # YOLO-RD
 
-
+This is the official code implementation of YOLO-RD for the Neurocomputing journal paper:
+## "YOLO-RD: Road Defect Detection with Context-Aware Attention and Balanced Loss"
 
 ## 1. CSAF module
 ```python
