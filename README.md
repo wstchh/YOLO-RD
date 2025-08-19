@@ -4,6 +4,10 @@ This is the official code implementation of YOLO-RD for the Neurocomputing journ
 **"YOLO-RD: Road Defect Detection with Context-Aware Attention and Balanced Loss"**
 
 ## 1. CSAF module
+<div align="center">​ 
+Fig. 2-The structure of CSAF module.png   
+</div>	  
+
 ```python
 class ESELayer(nn.Module):
     """ Effective Squeeze-Excitation
