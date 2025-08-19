@@ -78,7 +78,9 @@ class CSAF(nn.Module):
 
 <div align="center">​ 
 Illustration of LGECA module  
-</div>	  
+</div>	 
+
+
 ```python
 class LGECA(nn.Module):
     def __init__(self, c1, c2, local_size=5, global_k_size=7, local_k_size=3, local_weight=0.5):
