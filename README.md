@@ -118,6 +118,15 @@ class LGECA(nn.Module):
 ```
 
 ## 3. SR-WBCE loss
+<div align="center">
+    <img src="SR-WBCE Loss.jpg" width="500">
+</div>
+
+<div align="center">​ 
+SR-WBCE Loss   
+</div>	 
+
+
 ```python
 count_balance = [math.pow(it, 1/4) for it in counter_per_cls]
 cls_weights = [max(count_balance)/it if it != 0 else 1 for it in count_balance]
