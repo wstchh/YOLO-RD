@@ -49,6 +49,19 @@ Network structure of YOLO-RD
     </tr>
 </table>
 
+**（3）Different viewing angles**  
+<table frame=void>
+    <tr>
+    <td><center><img src="RobustnessExperiment/4-Wide View.jpg"
+                     alt="Typora-Logo"
+                     height="200"
+                     width="300"/></center></td>
+    <td><center><img src="RobustnessExperiment/5-High View.jpg"
+                     alt="Typora-Logo"
+                     height="200"
+                     width="300"/></center></td> 
+    </tr>
+</table>
 
 
 
