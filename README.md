@@ -18,6 +18,7 @@ Network structure of YOLO-RD
     <tr>
     <td><center><img src="RobustnessExperiment/1-Low Light.jpg"
                      alt="Typora-Logo"
+                     title="Low Light"
                      height="200"
                      width="300"/></center></td>
     <td><center><img src="RobustnessExperiment/2-uniform illumination.jpg"
