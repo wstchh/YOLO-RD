@@ -1,6 +1,6 @@
 # YOLO-RD
 
-This is the official code implementation of YOLO-RD for the Neurocomputing journal paper:
+This is the official code implementation of YOLO-RD for the *Neurocomputing* journal paper:
 **"YOLO-RD: Road Defect Detection with Context-Aware Attention and Balanced Loss"**
 <div align="center">
     <img src="Fig. 1-Network structure of YOLO-RD.jpg" width="600">
