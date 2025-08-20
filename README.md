@@ -13,8 +13,6 @@ Network structure of YOLO-RD
 
 ## Robustness Experiment
 
-
-
 **（1）Different lighting conditions**  
 <table frame=void>
     <tr>
@@ -32,6 +30,26 @@ Network structure of YOLO-RD
                      width="300"/></center></td> 
     </tr>
 </table>
+
+**（2）Different weather conditions**  
+<table frame=void>
+    <tr>
+    <td><center><img src="RobustnessExperiment/6-Sunny.jpg"
+                     alt="Typora-Logo"
+                     height="200"
+                     width="300"/></center></td>
+    <td><center><img src="RobustnessExperiment/7-Cloudy.jpg"
+                     alt="Typora-Logo"
+                     height="200"
+                     width="300"/></center></td> 
+   <td><center><img src="RobustnessExperiment/8-Snowy.jpg"
+                     alt="Typora-Logo"
+                     height="200"
+                     width="300"/></center></td> 
+    </tr>
+</table>
+
+
 
 
 ## 1. CSAF module
