@@ -14,6 +14,7 @@ Network structure of YOLO-RD
 ## Robustness Experiment
 
 **（1）Different lighting conditions**  
+**1-Low Light，2-uniform illumination，  3-High Light**
 <table frame=void>
     <tr>
     <td><center><img src="RobustnessExperiment/1-Low Light.jpg"
