@@ -35,6 +35,8 @@ Network structure of YOLO-RD
 </table>
 
 **（2）Different weather conditions**  
+
+**1-Sunny，2-Cloudy，3-Snowy**
 <table frame=void>
     <tr>
     <td><center><img src="RobustnessExperiment/6-Sunny.jpg"
@@ -53,6 +55,8 @@ Network structure of YOLO-RD
 </table>
 
 **（3）Different viewing angles**  
+
+**1-Wide View，2-High View**
 <table frame=void>
     <tr>
     <td><center><img src="RobustnessExperiment/4-Wide View.jpg"
